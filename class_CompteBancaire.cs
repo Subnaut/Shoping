@@ -1,14 +1,15 @@
 public class CompteBancaire
 {
-				public string	titulaire;
+				public string	titulaires;
 				public double	solde;
 				public string	devise;
 				//	Constructeur
 				public CompteBancaire(string	leTitulaire,	double	soldeInitial,	string	laDevise)
 				{
-								titulaire	=	leTitulaire;
+								titulaires	=	leTitulaire;
 								solde	=	soldeInitial;
 								devise	=	laDevise;
 				}
 				//	...
+				// test
 }
